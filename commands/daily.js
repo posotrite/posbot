@@ -1,5 +1,5 @@
 const { Database } = require("quickmongo");
-const db = new Database("mongodb+srv://lbot:190315@cluster0.2emrs.mongodb.net/<dbname>?retryWrites=true&w=majority");
+const db = new Database("PUT MONGO DB HERE");
 const ms = require('parse-ms');
 module.exports = {
     name: "daily",
